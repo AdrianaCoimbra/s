@@ -4,12 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sem serifa;
 }
-
 body{
-    padding-top: 20px;
-    padding-right: 100px;
-    padding-left: 100px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
+
+
+
 .conteudo{
     width: 100%;
     display: flex;
@@ -32,8 +34,8 @@ body{
 
 h2{
     color: #333;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 16px;
+    
 }
 span{
     color: #017143;
@@ -47,10 +49,10 @@ p{
 button{
     background: #017143;
     color: #fff;
-    border-radius: 45px;
+    border-radius: 40px;
     border: none;
     cursor: pointer;
-    padding: 16px;
+    padding: 10px;
     margin-top: 20px;
 }
 
@@ -62,7 +64,7 @@ button{
 }
 
 .botao-menu{
-    width: 60px;
+    width: 80px;
     transition: 1s;
     cursor: pointer;
     margin: 10px;
@@ -71,13 +73,18 @@ button{
 .botao-menu:hover{
     transform:translatey(-25px);
 }
-.circulo{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #017143;
-    top: 0;
-    left: 0;
-    clip-path: circle(600px at right 800px);
-    z-index: -1;
+
+    .circulo {
+        top: 0;
+        left: 0;;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #bf48ad;
+        top: 0;
+        left: 0;
+        clip-path: circle(600px at right 800px);
+        z-index: -1;
+  
 }
+   
